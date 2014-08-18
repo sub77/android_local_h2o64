@@ -46,6 +46,9 @@ There is an error with gps.h
 There is something to do with system/core/mkbootimg.
 
 Fix init.qcom.recovery.rc
+
     mkdir -p out/target/product/falcon/root/
+
     cd out/target/product/falcon/root/
-    wget wget https://raw.githubusercontent.com/CyanogenMod/android_device_motorola_msm8226-common/cm-11.0/rootdir/etc/init.recovery.qcom.rc
+
+    wget https://raw.githubusercontent.com/CyanogenMod/android_device_motorola_msm8226-common/cm-11.0/rootdir/etc/init.recovery.qcom.rc
