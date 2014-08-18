@@ -28,6 +28,19 @@ Then to sync up:
 
     repo sync
 
+Let's build it
+
+    . build/envsetup.sh
+
+Choose the number for
+
+    full_falcon-userdebug
+
+Useally 17.
+Start the building process (Take long time, depending from your computer)
+
+    make -j4
+
 MEMO (check the xda thread) : 
 There is an error with gps.h
 There is something to do with system/core/mkbootimg.
