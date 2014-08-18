@@ -10,12 +10,19 @@
   <remove-project name="aosp/device/lge/hammerhead" />
   <remove-project name="aosp/device/lge/mako" />
   <remove-project name="aosp/device/samsung/manta" />
+  <remove-project name="aosp/platform/hardware/qcom/display" />
+  <remove-project name="aosp/platform/hardware/qcom/media" />
+  <remove-project name="aosp/platform/build" />
 
-
+  <project path="build" name="h2o64/android_build" remote="github" revision="phablet-4.4.2_r1-caf" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project name="h2o64/android_kernel_motorola_msm8226" path="kernel" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="h2o64/android_device_motorola_falcon" path="device/qcom/msm8226" remote="github" revision="phablet-4.4.2_r1-caf"/>
   <project name="h2o64/android_device_motorola_falcon" path="device/qcom/common" remote="github" revision="phablet-4.4.2_r1-caf" />
+  <project name="h2o64/android_device_motorola_falcon" path="hardware/qcom/display" remote="github" revision="phablet-4.4.2_r1-caf" />
+  <project name="h2o64/android_device_motorola_falcon" path="hardware/qcom/media" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="KonstaT/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="b2g_kk_3.5" />
   <project name="platform/system/bluetooth" path="system/bluetooth" remote="caf" revision="LNX.LA.3.5.2.1.2"/>
 
