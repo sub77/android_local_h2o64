@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github" fetch="git://github.com/" />
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+
+  <remove-project name="aosp/device/asus/deb" />
+  <remove-project name="aosp/device/asus/flo" />
+  <remove-project name="aosp/device/asus/grouper" />
+  <remove-project name="aosp/device/asus/tilapia" />
+  <remove-project name="aosp/device/lge/hammerhead" />
+  <remove-project name="aosp/device/lge/mako" />
+  <remove-project name="aosp/device/samsung/manta" />
+
+
+  <project name="h2o64/android_kernel_motorola_msm8226" path="kernel" remote="github" revision="phablet-4.4.2_r1-caf" />
+  <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="phablet-4.4.2_r1-caf" />
+  <project name="h2o64/android_device_motorola_falcon" path="device/qcom/msm8226" remote="github" revision="phablet-4.4.2_r1-caf"/>
+  <project name="h2o64/android_device_motorola_falcon" path="device/qcom/common" remote="github" revision="phablet-4.4.2_r1-caf" />
+  <project name="KonstaT/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="b2g_kk_3.5" />
+  <project name="platform/system/bluetooth" path="system/bluetooth" remote="caf" revision="LNX.LA.3.5.2.1.2"/>
+
+  
+</manifest>
