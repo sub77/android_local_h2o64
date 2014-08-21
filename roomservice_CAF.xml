@@ -23,7 +23,7 @@
   <project name="h2o64/android_device_motorola_falcon" path="device/qcom/common" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="h2o64/android_device_motorola_falcon" path="hardware/qcom/display" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="h2o64/android_device_motorola_falcon" path="hardware/qcom/media" remote="github" revision="phablet-4.4.2_r1-caf" />
-  <project name="KonstaT/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="b2g_kk_3.5" />
+  <project name="h2o64/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="platform/system/bluetooth" path="system/bluetooth" remote="caf" revision="LNX.LA.3.5.2.1.2"/>
   <project name="Cyanogenmod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-11.0" />
 
