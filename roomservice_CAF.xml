@@ -13,6 +13,7 @@
   <remove-project name="aosp/platform/hardware/qcom/display" />
   <remove-project name="aosp/platform/hardware/qcom/media" />
   <remove-project name="aosp/platform/build" />
+  <remove-project name="aosp/platform/system/core" />
 
   <project path="build" name="h2o64/android_build" remote="github" revision="phablet-4.4.2_r1-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -24,6 +25,7 @@
   <project name="h2o64/android_device_motorola_falcon" path="hardware/qcom/display" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="h2o64/android_device_motorola_falcon" path="hardware/qcom/media" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="h2o64/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="phablet-4.4.2_r1-caf" />
+  <project name="h2o64/android_system_core" path="system/core" remote="github" revision="phablet-4.4.2_r1-caf" />
   <project name="platform/system/bluetooth" path="system/bluetooth" remote="caf" revision="LNX.LA.3.5.2.1.2"/>
   <project name="Cyanogenmod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-11.0" />
 
