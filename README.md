@@ -13,7 +13,7 @@ Make a build directory:
 
 	mkdir Ubuntu_Touch (or whatever name you choose)
 	cd Ubuntu_Touch (or the name  you chose)
-	mkdir .repo/local_manifests
+	mkdir -p .repo/local_manifests
 
 To initialize your local repository using the CyanogenMod manifest, use commands like these:
 
