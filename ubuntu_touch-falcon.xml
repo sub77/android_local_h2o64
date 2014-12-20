@@ -1,0 +1,26 @@
+<manifest>
+  <remote  name="github" fetch="git://github.com/" />
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+
+  <remove-project name="aosp/device/asus/deb" />
+  <remove-project name="aosp/device/asus/flo" />
+  <remove-project name="aosp/device/asus/grouper" />
+  <remove-project name="aosp/device/asus/tilapia" />
+  <remove-project name="aosp/device/lge/hammerhead" />
+  <remove-project name="aosp/device/lge/mako" />
+  <remove-project name="aosp/device/samsung/manta" />
+  <remove-project name="aosp/platform/build" />
+  <remove-project name="aosp/platform/system/core" />
+
+
+  <project path="build" name="h2o64/android_build" remote="github" revision="ubuntu-touch_test" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="system/core" name="h2o64/android_system_core" remote="github" revision="ubuntu-touch" groups="pdk" />
+
+  <project name="h2o64/android_kernel_motorola_msm8226" path="kernel" remote="github" revision="ubuntu-touch" />
+  <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="ubuntu-touch" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
+  <project name="h2o64/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="ubuntu-touch" />
+  <project name="Cyanogenmod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-11.0" />
+</manifest>
