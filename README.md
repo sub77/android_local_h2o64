@@ -19,9 +19,9 @@ To initialize your local repository using the CyanogenMod manifest, use commands
 
     repo init -u https://code-review.phablet.ubuntu.com/p/aosp/platform/manifest.git -b phablet-4.4.2_r1
 
-    curl -L -o .repo/local_manifests/roomservice_CAF.xml -O -L https://raw.githubusercontent.com/h2o64/android_local_h2o64/phablet-4.4.2_r1-caf/roomservice_CAF.xml
+    curl -L -o .repo/local_manifests/ubuntu_touch-falcon.xml -O -L https://raw.githubusercontent.com/h2o64/android_local_h2o64/ubuntu-touch/ubuntu_touch-falcon.xml
  
-    	( or Download: https://raw.githubusercontent.com/h2o64/android_local_h2o64/phablet-4.4.2_r1-caf/roomservice_CAF.xml
+    	( or Download: https://raw.githubusercontent.com/h2o64/android_local_h2o64/ubuntu-touch/ubuntu_touch-falcon.xml
 		and place it in ~/Ubuntu_Touch/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:
