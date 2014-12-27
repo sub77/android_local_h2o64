@@ -12,6 +12,10 @@
   <remove-project name="aosp/platform/build" />
   <remove-project name="aosp/platform/system/core" />
 
+  <remove-project name="aosp/platform/hardware/qcom/display"/>
+  <remove-project name="aosp/platform/hardware/qcom/keymaster"/>
+  <remove-project name="aosp/platform/hardware/qcom/media"/>
+  <remove-project name="aosp/platform/hardware/qcom/wlan"/>
 
   <project path="build" name="h2o64/android_build" remote="github" revision="ubuntu-touch" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -23,4 +27,10 @@
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
   <project name="h2o64/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="ubuntu-touch" />
   <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-11.0" />
+
+  <project path="hardware/qcom/display" name="h2o64/android_hardware_qcom_display" remote="github" revision="ubuntu-touch"groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="h2o64/android_hardware_qcom_keymaster" remote="github" revision="ubuntu-touch"groups="qcom" />
+  <project path="hardware/qcom/media" name="h2o64/android_hardware_qcom_media" remote="github" revision="ubuntu-touch"groups="qcom" />
+  <project path="hardware/qcom/wlan" name="h2o64/android_hardware_qcom_wlan" remote="github" revision="ubuntu-touch"groups="qcom_wlan" />
+
 </manifest>
