@@ -16,13 +16,14 @@
   <remove-project name="aosp/platform/hardware/qcom/keymaster"/>
   <remove-project name="aosp/platform/hardware/qcom/media"/>
   <remove-project name="aosp/platform/hardware/qcom/wlan"/>
+  <remove-project name="aosp/platform/hardware/libhardware"/>
 
   <project path="build" name="h2o64/android_build" remote="github" revision="ubuntu-touch" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="system/core" name="h2o64/android_system_core" remote="github" revision="ubuntu-touch" groups="pdk" />
 
-  <project name="h2o64/android_kernel_motorola_msm8226" path="kernel" remote="github" revision="ubuntu-touch" />
+  <project name="h2o64/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="ubuntu-touch" />
   <project name="h2o64/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="ubuntu-touch" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
   <project name="h2o64/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="ubuntu-touch" />
@@ -32,5 +33,6 @@
   <project path="hardware/qcom/keymaster" name="h2o64/android_hardware_qcom_keymaster" remote="github" revision="ubuntu-touch" groups="qcom" />
   <project path="hardware/qcom/media" name="h2o64/android_hardware_qcom_media" remote="github" revision="ubuntu-touch" groups="qcom" />
   <project path="hardware/qcom/wlan" name="h2o64/android_hardware_qcom_wlan" remote="github" revision="ubuntu-touch" groups="qcom_wlan" />
+  <project path="hardware/libhardware" name="h2o64/android_hardware_libhardware" remote="github" revision="ubuntu-touch"  groups="pdk" />
 
 </manifest>
